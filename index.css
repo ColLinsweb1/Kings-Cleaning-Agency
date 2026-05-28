@@ -11,8 +11,9 @@ html {
 }
 
 body {
-    background: radial-gradient(circle at 20% 0%, rgba(0, 136, 165, 0.08), transparent 60%),
-        linear-gradient(180deg, #f3f5f7 0%, #e2e8f0 100%);
+    /* background: radial-gradient(circle at 20% 0%, rgba(0, 136, 165, 0.08), transparent 60%),
+        linear-gradient(180deg, #f3f5f7 0%, #e2e8f0 100%); */
+        background: whitesmoke;
     padding-bottom: 1000px;
     overflow-x: hidden;
 }
@@ -454,7 +455,7 @@ main {
     width: 90%;
     margin-top: 40px;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .promises {
@@ -686,6 +687,7 @@ main {
     background: #053f97;
 }
 
+
 .why-choose-us-overall {
     padding-top: 70px;
     display: flex;
@@ -860,15 +862,148 @@ marquee div {
 
 
 
+ /* PROJECTS CONTAINER */
+
+ /* .container-1 {
+    background: url("KSA- images/projects img 1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 35%;
+    height: 45vh;
+    border-radius: 20px;
+ } */
 
 
+ .projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+ }
+ .projects-container-1,
+ .projects-container-2,
+ .projects-container-3,
+ .projects-container-4 {
+    width: 40%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4{
+    background: url("KSA- images/projects img 1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+    transition: all 0.5s ease;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.01);
+}
+
+.container-2 {
+    background: url("KSA- images/projects img 2.jpg");
+    background-position: bottom;
+}
+
+.container-3 {
+    background: url("KSA- images/projects img 3.jpg");
+    background-position: bottom;
+}
+
+.container-4 {
+    background: url("KSA- images/projects img 4.jpg");
+    background-position: bottom;
+}
 
 
+.projects-container-1:hover .container-1 {
+    transform: scale(1.1);
+}
+
+.projects-container-2:hover .container-2 {
+    transform: scale(1.1);
+}
+
+.projects-container-3:hover .container-3 {
+    transform: scale(1.1);
+}
+
+.projects-container-4:hover .container-4 {
+    transform: scale(1.1);
+}
 
 
+.projects-container-1:hover .project-container-overlay {
+    transform: scale(0.9);
+}
 
+.projects-container-2:hover .project-container-overlay {
+    transform: scale(0.9);
+}
 
+.projects-container-3:hover .project-container-overlay {
+    transform: scale(0.9);
+}
 
+.projects-container-4:hover .project-container-overlay {
+    transform: scale(0.9);
+}
+
+.project-container-overlay {
+    width: 90%;
+    height: 13vh;
+    background: white;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+    transition: all 0.5s ease;
+
+}
+
+.project-container-overlay-1 {
+    color: #0f172a;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+}
+
+.project-container-overlay-2{
+   color: #0f172a;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.project-icon2 {
+    color: whitesmoke;
+    opacity: 0.95;
+    margin-left: 10px;
+    background: #2774f1;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 50%;
+    position: static;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -985,7 +1120,7 @@ marquee div {
 }
 
 .view-pricing {
-    color: whitesmoke;
+    color : whitesmoke;
     border-radius: 25px;
     white-space: nowrap;
     letter-spacing: 1px;
@@ -1004,6 +1139,181 @@ marquee div {
 }
 
 
+/* FREE QUOTE IMAGE BACKGROUND */
+
+.free-quote-hero {
+    width: 100%;
+    height: 30vh;
+    margin-top: 150px;
+}
+
+/* Free quote overlay — matches site palette (#2774f1) with subtle depth */
+.free-quote-overlay {
+    background: linear-gradient(135deg, rgba(39,116,241,0.95), rgba(24,105,235,0.88));
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(6px);
+}
+
+.free-quote-text {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+    width: 35%;
+    margin-left: 100px;
+    border-left: 2px solid white;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+
+
+.book-service-btn {
+    color: #0f172a;
+    font-family: 'DM Sans', sans-serif;
+    margin-right: 100px;
+    transition: all 0.5s ease;
+}
+
+.book-service-btn:hover {
+   transform: translateY(-15%);
+}
+
+
+/* FORM CONTAINER */
+
+
+.form-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 150px;
+}
+
+.name-and-email-container,
+.phone-and-address-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 110px
+}
+
+.name-label,
+.email-label,
+.tel-label,
+.address-label,
+.message-label {
+    color: #0f172a;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.name-input,
+.email-input,
+.tel-input {
+    width: 150%;
+    background: transparent;
+    box-shadow: 0 0 0 1px rgba(105, 99, 93, 0.15);
+    padding: 8px 0px;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 10px;
+}
+
+.name-input::placeholder,
+.email-input::placeholder,
+.tel-input::placeholder,
+.message-input::placeholder{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(71, 69, 67, 0.849);
+    padding-left: 15px;
+}
+
+.custom-select-container,
+.message-input-container {
+    width: 120%;
+}
+
+.custom-select-input,
+.message-input {
+    width: 100%;
+    background: transparent;
+    box-shadow: 0 0 0 1px rgba(105, 99, 93, 0.15);
+    padding: 8px 0px;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 10px;
+}
+
+.message-input {
+    height: 20vh;
+}
+
+.submit-quote-btn {
+    color : whitesmoke;
+    border-radius: 25px;
+    white-space: nowrap;
+    transition: all 0.5s ease;
+    font-family: 'DM Sans', sans-serif;
+    border: none;
+    background: #2774f1;
+    font-size: 13px;
+}
+
+.submit-quote-btn:hover {
+    background: #053f97;
+}
 
 
 
+/* CONTACT CONTAINER 2 */
+
+.contact-container2-content {
+    background :#2563eb;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+
+.contact-address,
+.telephone-contact {
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.contact-address-text,
+.telephone-address-text {
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(231, 229, 229);
+    font-size: 14px;
+}
+
+.telephone-container {
+    margin-top: 50px;
+}
+
+
+.quote-box-socials-head {
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 50px;
+}
+
+.quote-box-socials-link {
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+#facebook-icon-quote-link {
+     padding: 10px 18px;
+    border-radius: 50%;
+}

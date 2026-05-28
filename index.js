@@ -45,6 +45,6 @@ window.addEventListener("scroll", ()=>{
 scrollTop.addEventListener("click", ()=>{
     window.scrollTo({
        top: 0,
-       behaviour: 'smooth'
+       behavior: 'smooth'
     });
 });
