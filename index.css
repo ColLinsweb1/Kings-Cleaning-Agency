@@ -2734,12 +2734,14 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 10px !important;
 }
 
 
 .container-img-card {
-    width: 500px;
+    width: 98%;
     height: 450px;
     overflow: hidden;
     position: relative;
@@ -2837,12 +2839,12 @@ ul {
 
 /* Layout for WHY CHOOSE boxes: 2 columns x 2 rows */
 .why-choose-box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px 30px;
-    align-items: start;
-    width: 100%;
-    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    width: 95%;
+    
 }
 
 .why-choose-text-box-1 {
