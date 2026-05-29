@@ -2378,50 +2378,23 @@ ul {
      display: none;
 }
 
-    .stats-container {
-        margin-top: 120px;
-        height: auto;
-    }
 
-    .text-overlay {
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem 1rem;
-        gap: 1rem;
-    }
 
-    .stats-container-1 {
-        width: 100%;
-        max-width: 520px;
-        padding: 1.25rem 1rem;
-        margin: 0 auto;
-        border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
-        background: rgba(255, 255, 255, 0.06);
-        border-radius: 18px;
-        text-align: center;
-    }
+/* ABOUT CONTAINER */
 
-    .stats-container-1:last-child {
-        border-bottom: none;
-    }
+.about-container {
+    margin-top: 100px;
+    padding: 40px 5%;
+}
 
-    .stats-icon {
-        width: 48px;
-        height: 48px;
-        margin-bottom: 0.85rem;
-    }
-
-    .stats-container-1-figure {
-        font-size: 36px;
-    }
-
-    .stats-container-1-text {
-        font-size: 15px;
-        line-height: 1.4;
-    }
-    
-
+.about-overall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 /* IMAGE SIDE */
 
@@ -2658,7 +2631,7 @@ ul {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 60vh;
+    height: 100%;
     margin-top: 180px;
 }
 
@@ -2672,9 +2645,6 @@ ul {
     gap: 1.5rem;
     flex-wrap: wrap;
     padding: 1rem 2rem;
-    position: relative;
-    flex-direction: column;
-
 }
 
 .stats-container-1 {
@@ -2686,12 +2656,14 @@ ul {
     flex: 1 1 220px;
     padding: 1.5rem 1rem;
     text-align: center;
-    
+     flex-direction: column;
 
 }
 
 .stats-container-1:not(:last-child) {
-    border-right: 1px solid rgba(255, 255, 255, 0.18);
+    border-right: none;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.18); */
+    
 }
 
 .stats-icon {
@@ -2713,7 +2685,7 @@ ul {
 
 .stats-container-1-figure {
     font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: #0449b8;
     line-height: 1;
@@ -2723,7 +2695,7 @@ ul {
     font-family: 'DM Sans', sans-serif;
     color: rgb(202, 199, 199);
     margin-top: 5px;
-    font-size: 10px;
+    font-size: 18px;
 }
 
 
@@ -2906,6 +2878,7 @@ ul {
 .why-choose-text-box-1-subtext {
     width: 100%;
 }
+
 
 
 
