@@ -2194,8 +2194,8 @@ marquee div {
 }
 
 .logo {
-    width: 25%;
-    height: 25%;
+    width: 14%;
+    height: 14%;
     margin-left: 15px;
 }
 
@@ -2514,7 +2514,7 @@ ul {
 .about-subtext {
     font-family: 'DM Sans', sans-serif;
     color: rgb(49, 48, 48);
-    width: 50%;
+    width: 100%;
     margin-top: 40px;
     line-height: 1.6;
     font-size: 15px;
