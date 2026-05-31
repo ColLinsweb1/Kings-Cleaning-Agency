@@ -83,6 +83,10 @@ ul li a:hover {
     transform: translateX(-100%);
 }
 
+#homepage {
+    color: white;
+    border-bottom: 1px solid #2563eb;
+}
 
 
 .quote {
@@ -658,6 +662,7 @@ main {
     font-size: 13px;
     position: absolute;
     right: 10%;
+    
 }
 
 .view-pricing:hover {
