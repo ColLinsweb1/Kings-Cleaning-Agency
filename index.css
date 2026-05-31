@@ -166,17 +166,25 @@ ul li a:hover {
 #arrow {
     color: whitesmoke;
     font-size: 25px;
-    padding: 10px 12px;
+    padding: 12px 14px;
     position: fixed;
     bottom: 10px;
     right: 30px;
     cursor: pointer;
-    box-shadow: inset 0 8px 30px rgb(89, 97, 211);
-    background: transparent;
+    box-shadow: 0 12px 24px rgba(37, 99, 235, 0.25);
+    background: linear-gradient(135deg, #2563eb, #4f7cff);
     z-index: 10;
     opacity: 0;
-    transition: all 0.5s ease;
-    border-radius: 3px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#arrow:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #1d4ed8, #60a5fa);
 }
 
 #arrow.show {
@@ -459,19 +467,19 @@ main {
     display: flex;
     gap: 40px;
     line-height: 40px;
-    
+
 }
 
 .promise1 div i,
 .promise2 div i {
-    color:#2774f1;
+    color: #2774f1;
 }
 
 .discover-more-link {
-   font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.discover-more{
+.discover-more {
     color: whitesmoke;
     border-radius: 25px;
     white-space: nowrap;
@@ -2220,19 +2228,24 @@ marquee div {
     #arrow {
         color: whitesmoke;
         font-size: 25px;
-        padding: 10px 12px;
+        padding: 12px 14px;
         position: fixed;
         bottom: 10px;
         right: 15px;
         cursor: pointer;
-        box-shadow: inset 0 8px 30px rgb(89, 97, 211);
-        background: transparent;
+        box-shadow: 0 12px 24px rgba(37, 99, 235, 0.25);
+        background: linear-gradient(135deg, #2563eb, #4f7cff);
         z-index: 10;
         opacity: 0;
-        transition: all 0.5s ease;
-        border-radius: 3px;
+        transition: transform 0.25s ease, opacity 0.5s ease, background 0.25s ease;
+        border-radius: 50%;
     }
 
+
+    #arrow:hover {
+        transform: scale(1.05);
+        background: linear-gradient(135deg, #1d4ed8, #60a5fa);
+    }
 
 
     /* MAIN SECTION */
@@ -2394,165 +2407,166 @@ marquee div {
 
     /* ABOUT CONTAINER */
 
-.about-container {
-    margin-top: 80px;
-    padding: 10px 0px;
-    margin-bottom: 120px;
-}
+    .about-container {
+        margin-top: 80px;
+        padding: 10px 0px;
+        margin-bottom: 120px;
+    }
 
-.about-overall {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 100px;
-}
+    .about-overall {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 130px;
 
-
-.about-section-1 {
-    background: url("KSA- images/about-img2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 95%;
-    height: 50vh;
-    filter: brightness(0.9);
-    border-radius: 15px;
-    transition: all 0.5s ease;
-}
-
-.about-section-1:hover {
-    background: url("KSA- images/about-img1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 95%;
-    height: 70vh;
-    filter: brightness(0.9);
-    border-radius: 15px;
-    transition: all 0.5s ease;
-}
+    }
 
 
-/* STATS BOX */
+    .about-section-1 {
+        background: url("KSA- images/about-img2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 95%;
+        height: 50vh;
+        filter: brightness(0.9);
+        border-radius: 15px;
+        transition: all 0.5s ease;
+    }
 
-.about-stats-container {
-    position: absolute;
-    right: 5%;
-    bottom: -20%;
-    background: white;
-    backdrop-filter: blur(60px);
-    padding: 20px 30px;
-    border-radius: 20px;
-
-}
-
-.about-stats-figure {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    color: #2774f1;
-    line-height: 1;
-}
-
-.about-stats-text {
-    font-family: 'DM Sans', sans-serif;
-    color: rgb(78, 77, 77);
-    margin-top: 5px;
-}
-
-.about-section-2 {
-    width: 80%;
-}
-
-.about-heading {
-    font-size: 12px;
-    font-family: 'DM Sans', sans-serif;
-    color: #2774f1;
-    letter-spacing: 1px;
-    background: rgba(39, 116, 241, 0.06);
-    width: fit-content;
-    backdrop-filter: blur(12px);
-    padding: 10px 18px;
-}
-
-.about-subheading {
-    position: relative;
-    display: inline-block;
-    max-width: 90%;
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(2rem, 2.5vw, 3.5rem);
-    font-weight: 800;
-    letter-spacing: 0.02em;
-    color: #0f172a;
-    line-height: 1.2;
-    margin-top: 1rem;
-    padding-bottom: 15px;
-    margin-bottom: 10px;
-}
-
-.about-subheading::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -0.5rem;
-    width: 90px;
-    height: 4px;
-    border-radius: 999px;
-    background: linear-gradient(90deg, #2774f1, #6c63ff);
-}
-
-#about-section-2-heading {
-    margin-left: 0px !important;
-    width: 100%;
-}
+    .about-section-1:hover {
+        background: url("KSA- images/about-img1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 95%;
+        height: 70vh;
+        filter: brightness(0.9);
+        border-radius: 15px;
+        transition: all 0.5s ease;
+    }
 
 
-.about-subtext {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    width: 100%;
-}
+    /* STATS BOX */
+
+    .about-stats-container {
+        position: absolute;
+        right: 5%;
+        bottom: -20%;
+        background: white;
+        backdrop-filter: blur(60px);
+        padding: 20px 30px;
+        border-radius: 20px;
+
+    }
+
+    .about-stats-figure {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: #2774f1;
+        line-height: 1;
+    }
+
+    .about-stats-text {
+        font-family: 'DM Sans', sans-serif;
+        color: rgb(78, 77, 77);
+        margin-top: 5px;
+    }
+
+    .about-section-2 {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .about-heading {
+        font-size: 12px;
+        font-family: 'DM Sans', sans-serif;
+        color: #2774f1;
+        letter-spacing: 1px;
+        background: rgba(39, 116, 241, 0.06);
+        width: fit-content;
+        backdrop-filter: blur(12px);
+        padding: 10px 18px;
+    }
+
+    .about-subheading {
+        position: relative;
+        display: inline-block;
+        max-width: 90%;
+        font-family: 'Playfair Display', serif;
+        font-size: clamp(2rem, 2.5vw, 3.5rem);
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        color: #0f172a;
+        line-height: 1.2;
+        margin-top: 1rem;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+    }
+
+    .about-subheading::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -0.5rem;
+        width: 90px;
+        height: 4px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #2774f1, #6c63ff);
+    }
+
+    #about-section-2-heading {
+        margin-left: 0px !important;
+        width: 100%;
+    }
 
 
-.promises {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
-    
-}
+    .about-subtext {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+        line-height: 30px;
+    }
 
-.promise1 div i,
-.promise2 div i {
-    color:#2774f1;
-}
 
-.discover-more-link {
-   font-family: 'DM Sans', sans-serif;
-}
+    .promises {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
 
-.discover-more{
-    color: whitesmoke;
-    border-radius: 25px;
-    white-space: nowrap;
-    letter-spacing: 1px;
-    transition: all 0.5s ease;
-    font-family: 'DM Sans', sans-serif;
-    border: none;
-    background: #2774f1;
-    font-size: 12px;
-    padding: 10px 12px !important;
-    margin-top: 15px !important;
-}
+    .promise1 div i,
+    .promise2 div i {
+        color: #2774f1;
+    }
 
-.discover-more:hover {
-    background: #053f97;
-}
+    .discover-more-link {
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .discover-more {
+        color: whitesmoke;
+        border-radius: 25px;
+        white-space: nowrap;
+        letter-spacing: 1px;
+        transition: all 0.5s ease;
+        font-family: 'DM Sans', sans-serif;
+        border: none;
+        background: #2774f1;
+        font-size: 12px;
+        padding: 10px 12px !important;
+        margin-top: 15px !important;
+    }
+
+    .discover-more:hover {
+        background: #053f97;
+    }
 
 
 
