@@ -17,32 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-.pre-header {
-    background: rgba(0, 38, 255, 0.6);
-    color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contact-head {
-    font-family: 'DM Sans', sans-serif;
-    letter-spacing: 0.5px;
-    font-size: 13px;
-}
-
-.social-head {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    padding: 0px 10px;
-}
-
-.social-head a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 14px;
-}
 
 header {
     display: flex;
@@ -259,6 +233,8 @@ main {
     width: 50%;
     margin-top: 40px;
     font-size: 18px;
+    border-left: 2px solid #0357d5;
+    padding-left: 20px;
 }
 
 .intro-btns {
@@ -2171,14 +2147,6 @@ marquee div {
         overflow-x: hidden;
     }
 
-    .pre-header {
-        background: rgba(0, 38, 255, 0.6);
-        color: whitesmoke;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        display: none;
-    }
 
     header {
         display: flex;
