@@ -3354,7 +3354,7 @@ marquee div {
     .team-members-overall {
         margin-top: 80px;
         flex-direction: column;
-        gap: 70px !important;
+        gap: 100px !important;
     }
 
 
