@@ -1639,7 +1639,6 @@ marquee div {
     /* Faqs Section */
 
     .faqs-container {
-
         padding-top: 80px;
     }
 
@@ -1651,7 +1650,7 @@ marquee div {
     #collapse-section-1 {
         padding: 14px 16px;
         font-size: 15px;
-        width: 95%;
+        width: 90%;
     }
 
     #collapse-section-1 span {

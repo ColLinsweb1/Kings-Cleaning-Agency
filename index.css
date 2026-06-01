@@ -3381,16 +3381,16 @@ marquee div {
         background-position: top;
     }
 
-    #faqs-section {
-        margin-top: 60% !important;
+      #faqs-section {
+        margin-top: 10% !important;
+        padding-left: 15px !important;
     }
 
 
     /* Faqs Section */
 
     .faqs-container {
-
-        padding-top: 120px;
+       padding-top: 80px;
     }
 
     .faqs-section-1 {
@@ -3401,7 +3401,7 @@ marquee div {
   #collapse-section-1 {
         padding: 14px 16px;
         font-size: 15px;
-        width: 95%;
+        width: 90%;
     }
 
     #collapse-section-1 span {
