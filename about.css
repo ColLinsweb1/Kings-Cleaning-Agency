@@ -321,3 +321,115 @@ main {
     bottom: 18%;
     font-size: 13px;
 }
+
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 32px;
+    margin: 80px auto 120px;
+    max-width: 1180px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(245, 248, 255, 0.98));
+    border-radius: 36px;
+    box-shadow: 0 30px 80px rgba(15, 23, 42, 0.09);
+    border: 1px solid rgba(39, 116, 241, 0.12);
+    position: relative;
+    overflow: hidden;
+}
+
+.introduction::before {
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: rgba(39, 116, 241, 0.08);
+    top: -80px;
+    right: -80px;
+    pointer-events: none;
+}
+
+.introduction-overall {
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.introduction-subhead {
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: #2774f1;
+    background: rgba(39, 116, 241, 0.08);
+    width: fit-content;
+    backdrop-filter: blur(12px);
+    padding: 12px 20px;
+    border-radius: 999px;
+    box-shadow: 0 12px 28px rgba(39, 116, 241, 0.08);
+}
+
+.introduction-head {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.7rem, 4vw, 4.25rem);
+    font-weight: 700;
+    line-height: 1.05;
+    color: #111827;
+    max-width: 860px;
+}
+
+.intro-text-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 28px;
+    width: 100%;
+    max-width: 980px;
+}
+
+.second-intro {
+    background: white;
+    border-radius: 28px;
+    padding: 32px 30px;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+    border: 1px solid rgba(39, 116, 241, 0.08);
+}
+
+.second-intro-text {
+    font-family: 'DM Sans', sans-serif;
+    color: #4f566a;
+    font-size: 1rem;
+    line-height: 1.85;
+    letter-spacing: 0.2px;
+}
+
+@media (max-width: 900px) {
+    .introduction {
+        padding: 60px 24px;
+        margin-top: 60px;
+    }
+
+    .intro-text-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .introduction {
+        padding: 40px 18px;
+        margin: 40px auto 80px;
+    }
+
+    .introduction-subhead {
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+
+    .introduction-head {
+        font-size: 2.25rem;
+    }
+}

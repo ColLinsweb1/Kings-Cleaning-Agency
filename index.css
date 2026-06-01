@@ -437,6 +437,8 @@ main {
     font-size: 16px;
     font-weight: 400;
     width: 90%;
+    color: #4f566a;
+    line-height: 30px;
 }
 
 
@@ -447,6 +449,7 @@ main {
     display: flex;
     gap: 40px;
     line-height: 40px;
+    color: #4f566a;
 
 }
 
