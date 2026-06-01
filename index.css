@@ -571,10 +571,11 @@ main {
     align-items: center;
     margin-top: 20px;
     font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    color: #505066;
+    color: #4f566a;
     padding-bottom: 10px;
+    line-height: 25px;
 }
 
 
@@ -774,7 +775,7 @@ main {
 .why-choose-text-box-1-subtext {
     font-family: 'DM Sans', sans-serif;
     width: 100%;
-    color: #6b7280;
+    color: #4f566a;
     font-size: 0.95rem;
     line-height: 1.4;
 }
@@ -1123,6 +1124,7 @@ marquee div {
 .how-it-work-get-started2 {
     font-family: 'DM Sans', sans-serif;
     width: 20%;
+    color: #4f566a;
 }
 
 .view-pricing {
@@ -1426,7 +1428,7 @@ marquee div {
 .customers-review-text {
     width: 100%;
     font-family: 'DM Sans', sans-serif;
-    color: rgba(71, 69, 67, 0.849);
+    color: #4f566a;
     margin-top: 30px;
 }
 
@@ -1595,7 +1597,7 @@ marquee div {
     width: 800px;
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
-    color: rgb(51, 51, 51);
+    color: #4f566a;
     border-top: 2px solid rgba(0, 0, 0, 0.08);
 }
 
@@ -3183,6 +3185,11 @@ marquee div {
 
     .submit-quote-btn:hover {
         background: #053f97;
+    }
+
+    .email-container,
+    .address-container {
+        margin-top: 15px;
     }
 
 
