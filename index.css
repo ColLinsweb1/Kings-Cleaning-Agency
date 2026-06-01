@@ -1384,14 +1384,14 @@ marquee div {
     font-family: 'DM Sans', sans-serif;
     position: absolute;
     top: 30px;
-    left: 145px;
+    left: 125px;
 }
 
 .customer-company {
     font-family: 'DM Sans', sans-serif;
     position: absolute;
     top: 55px;
-    left: 145px;
+    left: 125px;
     font-size: 13px;
     color: rgba(71, 69, 67, 0.849);
 }
@@ -1399,7 +1399,7 @@ marquee div {
 .customer-stars-review {
     position: absolute;
     top: 75px;
-    left: 145px;
+    left: 125px;
     font-size: 13px;
     display: inline-block;
 }
@@ -1408,8 +1408,8 @@ marquee div {
     font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     position: absolute;
-    top: 82px;
-    left: 260px;
+    top: 81px;
+    left: 240px;
     font-size: 13px;
 }
 

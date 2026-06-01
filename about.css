@@ -433,3 +433,48 @@ main {
         font-size: 2.25rem;
     }
 }
+
+
+
+
+/* STATS CONTAINER */
+
+.stats-overall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.stats-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+
+#stats-1-icon {
+    background: #2563eb;
+    color: white;
+    font-size: 30px;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+
+.stats-1-text {
+     font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.stats-1-text div {
+    font-family: 'DM Sans', sans-serif;
+    color: #4f566a;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
