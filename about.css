@@ -734,6 +734,7 @@ marquee div {
     width: 80%;
     cursor: pointer;
     position: relative;
+    border-bottom: 3px solid rgba(39, 116, 241, 0.18);
 }
 
 #collapse-section-1:active {
