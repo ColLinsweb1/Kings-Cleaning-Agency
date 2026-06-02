@@ -3234,7 +3234,6 @@ marquee div {
         width: 25%;
         height: 25%;
         border-radius: 50%;
-        border: 3px solid #2774f1;
     }
 
 
@@ -3295,6 +3294,8 @@ marquee div {
         margin-top: 30px;
     }
 
+
+    
 
     /* TEAM MEMBERS SECTION */
 
