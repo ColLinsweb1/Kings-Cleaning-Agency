@@ -603,8 +603,12 @@ main {
     margin-top: 30px;
 }
 
+.client-container-heading {
+    padding-left: 15px !important;
+}
 
-.about-heading {
+
+.client-heading {
     font-size: 12px;
     font-family: 'DM Sans', sans-serif;
     color: #2774f1;
@@ -615,7 +619,7 @@ main {
     padding: 10px 18px;
 }
 
-.about-subheading {
+.client-subheading {
     position: relative;
     display: inline-block;
     max-width: 90%;
@@ -630,7 +634,7 @@ main {
     margin-bottom: 10px;
 }
 
-.about-subheading::before {
+.client-subheading::before {
     content: "";
     position: absolute;
     left: 0;
