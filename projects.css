@@ -169,7 +169,7 @@ ul li a:hover {
 /* Projects page styling */
 .page-hero {
     position: relative;
-    height: 100vh;
+    height: 60vh;
     background: linear-gradient(135deg, rgba(15, 23, 42, 0.88), rgba(39, 116, 241, 0.42)),
         url("KSA- images/office-cleaning.jpg") center/cover no-repeat;
     display: flex;
