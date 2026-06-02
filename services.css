@@ -183,7 +183,7 @@ main {
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background: url("KSA- images/we clean.jpg");
+    background: url("KSA- images/about-img1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -644,6 +644,10 @@ main {
     border-radius: 999px;
     background: linear-gradient(90deg, #2774f1, #6c63ff);
 }
+
+.client-container-heading {
+        margin-left: 20px !important;
+    }
 
 /* NEWSLETTER SECTION  */
 
