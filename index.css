@@ -3192,12 +3192,14 @@ marquee div {
 
     /* CUSTOMERS REVIEW SECTION */
 
-    .view-reviews-btn {
+
+    /* .view-reviews-btn {
         color: whitesmoke;
         font-family: 'DM Sans', sans-serif;
         transition: all 0.5s ease;
         position: absolute;
         right: -90px;
+        bottom: -10px;
         background: #2774f1;
         padding: 10px 12px !important;
         font-size: 11px;
@@ -3205,7 +3207,7 @@ marquee div {
 
     .view-reviews-btn:hover {
         transform: translateY(-15%);
-    }
+    } */
 
     .clients-review-overall {
         margin-top: 80px;
@@ -3294,6 +3296,10 @@ marquee div {
         margin-top: 30px;
     }
 
+    .reviews-container-heading {
+        padding-left: 15px !important;
+        margin-top: 100px !important;
+    }
 
     
 
