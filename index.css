@@ -2178,7 +2178,7 @@ marquee div {
 
     /* MAIN SECTION */
 
-    .overlay {
+   .overlay {
         position: absolute;
         inset: 0;
         background: rgba(0, 0, 0, 0.50);
