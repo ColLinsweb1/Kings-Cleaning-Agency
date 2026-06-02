@@ -1371,7 +1371,6 @@ marquee div {
     width: 25%;
     height: 25%;
     border-radius: 50%;
-    border: 3px solid #2774f1;
 }
 
 
@@ -2039,58 +2038,6 @@ marquee div {
     transform: translateY(-70%) scale(1.8);
     color: whitesmoke
 }
-
-.menu-angle-top {
-    background: transparent;
-    border-top: 1px solid rgba(0, 255, 255, 0.8);
-    border-right: 1px solid rgba(0, 255, 255, 0.8);
-    position: absolute;
-    width: 5%;
-    height: 3.5%;
-    top: 15px;
-    right: 15px;
-    opacity: 0.3;
-}
-
-.menu-angle-top2 {
-    background: transparent;
-    border-top: 1px solid rgba(0, 255, 255, 0.8);
-    border-left: 1px solid rgba(0, 255, 255, 0.8);
-    position: absolute;
-    width: 5%;
-    height: 3.5%;
-    top: 15px;
-    left: 15px;
-    opacity: 0.3;
-}
-
-.menu-angle-bottom {
-    background: transparent;
-    border-bottom: 1px solid rgba(0, 255, 255, 0.8);
-    border-left: 1px solid rgba(0, 255, 255, 0.8);
-    position: absolute;
-    width: 5%;
-    height: 3.5%;
-    bottom: 15px;
-    left: 15px;
-    opacity: 0.3;
-}
-
-.menu-angle-bottom2 {
-    background: transparent;
-    border-bottom: 1px solid rgba(0, 255, 255, 0.8);
-    border-right: 1px solid rgba(0, 255, 255, 0.8);
-    position: absolute;
-    width: 5%;
-    height: 3.5%;
-    bottom: 15px;
-    right: 15px;
-    opacity: 0.3;
-}
-
-
-
-
 
 
 
