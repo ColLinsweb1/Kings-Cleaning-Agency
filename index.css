@@ -1580,7 +1580,6 @@ marquee div {
     padding: 25px 0px 25px 30px;
     font-size: 18px;
     border: none;
-    padding-right: 250px;
     transition: all 0.5s ease;
     width: 80%;
     cursor: pointer;
