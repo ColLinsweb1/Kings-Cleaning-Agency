@@ -166,6 +166,12 @@ ul li a:hover {
     transform: translateY(-30%);
 }
 
+
+main {
+    height: 100vh;
+}
+
+
 /* Projects page styling */
 .page-hero {
     position: relative;
@@ -934,13 +940,9 @@ ul li a:hover {
 }
 
 @media (max-width: 680px) {
-    .page-hero {
-        height: auto;
-        padding-bottom: 5rem;
-    }
 
     .hero-content {
-        padding: 3rem 1.25rem;
+        padding: 1rem 1rem;
     }
 
     .intro-btns {
@@ -964,6 +966,55 @@ ul li a:hover {
         width: 22%;
     }
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 40px 0 0;
+    }
+
+    .footer-container {
+        padding: 40px 20px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-bottom-right {
+        justify-content: center;
+    }
+
+    .footer-socials {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer-brand-name {
+        font-size: 18px;
+    }
+}
+
+
 
 @media (max-width: 480px) {
     html,
@@ -1217,11 +1268,62 @@ ul li a:hover {
     display: none;
 }
 
-/* NEWSLETTER SECTION  */
-
-    .newsletter-container {
-        margin-top: 100px;
+    /* Quote Section Mobile Alignment */
+    .quote-section {
+        padding: 2rem 1rem 3rem;
     }
+
+    .quote-grid {
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .quote-copy {
+        padding: 2rem 1.5rem;
+        border-radius: 20px;
+    }
+
+    .quote-copy h2 {
+        font-size: clamp(1.8rem, 3vw, 2.4rem);
+        margin-bottom: 0.8rem;
+    }
+
+    .quote-copy-text {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .quote-form {
+        padding: 1.5rem;
+        border-radius: 20px;
+    }
+
+    .form-row {
+        gap: 0.8rem;
+    }
+
+    .quote-form label {
+        font-size: 0.9rem;
+    }
+
+    .quote-form input,
+    .quote-form select,
+    .quote-form textarea {
+        padding: 0.9rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 12px;
+    }
+
+    .quote-form textarea {
+        min-height: 120px;
+    }
+
+    .quote-button {
+        margin-top: 1rem;
+        padding: 0.9rem 1rem !important;
+        font-size: 0.85rem;
+    }
+
 
 
     .newsletter-section {
@@ -1257,6 +1359,8 @@ ul li a:hover {
         margin-top: 15px !important;
      }
 
+
+     
 
 
 }
