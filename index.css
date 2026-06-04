@@ -1396,7 +1396,6 @@ marquee div {
     position: absolute;
     top: 30px;
     left: 125px;
-    text-transform: lowercase;
 }
 
 .customer-company {
