@@ -1623,7 +1623,7 @@ marquee div {
 /* NEWSLETTER SECTION  */
 
 .newsletter-container {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 
@@ -1634,7 +1634,7 @@ marquee div {
     align-items: center;
     margin: 0px 100px;
     border-radius: 25px;
-    padding: 40px 40px;
+    padding: 60px 40px;
 }
 
 .newsletter-section-1 {
@@ -1662,18 +1662,17 @@ marquee div {
     font-weight: 500;
 }
 
-
 .newletter-input {
     color: rgb(224, 222, 222);
     font-family: 'DM Sans', sans-serif;
-    padding: 8px 10px;
-    border-radius: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
     width: 70%;
     font-size: 14px;
 }
 
 .subscribe {
-    border-radius: 15px;
+    border-radius: 5px;
     background: #053f97;
     color: rgb(224, 222, 222);
     font-family: 'DM Sans', sans-serif;
@@ -1685,8 +1684,6 @@ marquee div {
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
 }
-
-
 
 
 /* ===== FOOTER SECTION ===== */
@@ -3436,6 +3433,14 @@ marquee div {
     .subscribe {
         margin-top: 10px !important;
     }
+
+     .newsletter-input {
+        width: 100%;
+    }
+
+     .legal {
+        margin-top: 15px !important;
+     }
 
 
 }

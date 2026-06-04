@@ -607,7 +607,7 @@ ul li a:hover {
     align-items: center;
     margin: 0px 100px;
     border-radius: 25px;
-    padding: 40px 40px;
+    padding: 60px 40px;
 }
 
 .newsletter-section-1 {
@@ -638,14 +638,14 @@ ul li a:hover {
 .newletter-input {
     color: rgb(224, 222, 222);
     font-family: 'DM Sans', sans-serif;
-    padding: 8px 10px;
-    border-radius: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
     width: 70%;
     font-size: 14px;
 }
 
 .subscribe {
-    border-radius: 15px;
+    border-radius: 5px;
     background: #053f97;
     color: rgb(224, 222, 222);
     font-family: 'DM Sans', sans-serif;
@@ -1363,7 +1363,7 @@ ul li a:hover {
         margin: 0px 0px;
         border-radius: 25px;
         padding: 40px 40px;
-        width: 98%;
+        width: 95%;
         margin: auto;
     }
 
@@ -1379,6 +1379,14 @@ ul li a:hover {
         margin-top: 10px !important;
     }
 
+
+    .newsletter-input {
+        width: 100%;
+    }
+
+     .legal {
+        margin-top: 15px !important;
+     }
 
 
 }
