@@ -1374,6 +1374,11 @@ marquee div {
     padding: 25px 15px 25px 25px;
 }
 
+#third-customer-box {
+    position: relative;
+    padding-bottom: 70px !important;
+}
+
 .customer-1 {
     width: 25%;
     height: 25%;
