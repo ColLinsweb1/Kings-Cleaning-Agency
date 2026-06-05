@@ -3448,4 +3448,21 @@ marquee div {
      }
 
 
+     .view-reviews-btn {
+        padding: 12px 14px;
+        font-size: 14px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+     }
+
+
+     .clients-review-overall {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 }
